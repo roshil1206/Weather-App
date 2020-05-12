@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+/* .bg-m{
+    background-image: url('../assets/sky.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+    height: 100%;
+} */
+body,html{
+   
+    background-image: url('../assets/sky.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.font{
+    font-family: 'Montserrat', sans-serif;
+}
+.fcgrey{
+    color: #2C3335;
+}
+.f-100{
+    font-size: 100px;
+}
+.m-100{
+    margin-top: 100px;
+}
+.f-30
+{
+    font-size: 30px;
+}
+input{background: rgba(255,255,255,0.4);
+    border: none;
+    position: relative;
+    display: inline;
+    outline: none;
+    width: 400px;
+   
+    top: 40px;
+    margin: 0 auto;
+    padding: 10px;
+    color: #333;
+    -webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+    box-shadow: 0 2px 10px 1px rgba(0,0,0,0.5);
+}
+input#se{
+  
+    display: inline;
+    inline-size: auto;
+}

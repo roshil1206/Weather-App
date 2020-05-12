@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel='icon' href="./assets/icon.webp" type = "image/x-icon" >
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!--Fontawesome-->
+    
+    <link rel='stylesheet' href="./Css/weather.css" />
+    <link rel='stylesheet' href="./Css/app.css" />
+</head>
+<body>
+    
+    <div class="container fcgrey ">
+        <br>
+        <div class="f-20">
+        <button type="button" id="C" >Celcius</button>&nbsp;|
+        <button type="button" id="F" class="btn fc-yell f-20">Fahrenheit</button>
+        </div>
+        <div class="m-80">   
+         <div  class="font text-center m-80 f-150">
+              <div id="temperature"></div> 
+                 <div id="description" class="f-60"></div>
+                 <div id="city" class="f-40"></div>
+           
+        </div>
+        <div class='text-center'>
+        <form onsubmit="searchweather()" name ='form' action='Weather.html'>
+            <div class="form-group">
+            <input type="text" name="cityname" placeholder="Another City Name" id="sip" />
+            <input type="submit" name="search" value="Search" id='se' />
+            
+        </form>
+    </div>
+    </div>
+    </div>
+</body>
+<script type="text/javascript" src="Js/weather.js"></script>
+</html>
